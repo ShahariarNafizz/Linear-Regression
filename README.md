@@ -24,16 +24,14 @@ This repository contains an end-to-end implementation of **Simple Linear Regress
 
 ## 🔍 Key Concepts
 
-- **Hypothesis Function**:  
-  \[
-  y = \beta_0 + \beta_1 x
-  \]
+**Hypothesis Function:**
 
-- **Cost Function**:  
-  Mean Squared Error (MSE):  
-  \[
-  MSE = \frac{1}{n} \sum_{i=1}^{n} (y_i - \hat{y}_i)^2
-  \]
+    ŷ = β₀ + β₁x
+
+**Cost Function (Mean Squared Error):**
+
+    MSE = (1/n) * Σᵢⁿ (yᵢ - ŷᵢ)²
+
 
 - **Model Evaluation**:
   - Mean Absolute Error (MAE)
